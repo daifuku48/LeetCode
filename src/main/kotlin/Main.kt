@@ -1,7 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+data class Person(val name: String, val age: Int)
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+
+fun main(args: Array<String>) {
+    val person1 = Person("Alice", 30)
+    val person2 = Person("Alice", 30)
+
+    println(person1.hashCode()) // Хеш-код person1
+    println(person2.hashCode())
 }
