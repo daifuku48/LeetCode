@@ -1,3 +1,5 @@
+import _36_valid_sudoku.Solution
+
 class Solution {
     fun isUgly(n: Int): Boolean {
         if (n <= 0) {
