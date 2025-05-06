@@ -17,8 +17,3 @@ class Solution {
     }
 }
 
-fun main()
-{
-    val ans = Solution()
-    print(ans.isUgly(15))
-}
